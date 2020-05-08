@@ -1,0 +1,12 @@
+comece por configurar a uart1 com os seguintes parametros:
+	19200 bps, 8 data bits,even parity,2 stop bits
+configure o modulo oc1 com um sinal com 100hz de frequencia e duty-cycle 50%. Observe o sinal no osciloscopio
+
+quando receber(por interrupçao da uart) os caracteres '+' e '-' aumente ou diminua o valor do duty-cycle em 5%
+	mantenha o valor do dutycycle entre 5 e 95% e envie mensagens adequadas ao utilizador informado de tentativas fora da gama
+
+mostre a percentagem do duty-cycle nos displays de 7 segmentos com uma frequencia de 100hz!!
+
+sem system call a cada segundo envie para o ecra uma string com a mensagem o valor atual do duty cycle é x
+
+
